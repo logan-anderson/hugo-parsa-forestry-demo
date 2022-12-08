@@ -2,15 +2,22 @@
 label: asdf
 hide_body: false
 fields:
-- type: text
-  name: title
-  label: title
 - type: datetime
   name: date
   label: date
 - type: text
   name: description
   label: description
+- type: text
+  name: title
+  label: title
 - type: file
   name: image
   label: image
+- name: asdf
+  type: text
+  config:
+    required: false
+  label: asdf
+  description: asdf
+  hidden: false
